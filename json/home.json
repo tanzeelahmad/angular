@@ -1,0 +1,14 @@
+{
+   "home":{
+      "slider":{
+         "data":[{"src":"img/slider-img.png","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.",
+         "alt":"image","title":"image"},
+         {"src":"img/slider-img.png","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.",
+         "alt":"image","title":"image"},{"src":"img/slider-img.png","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.",
+         "alt":"image","title":"image"}
+
+         ]
+      }
+     
+   }
+}

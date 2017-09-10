@@ -1,0 +1,60 @@
+<div class="primary-footer">
+		<div class="container">
+			<div class="col-sm-3 col-xs-6">
+				<h4>Shopz</h4>
+				<ul class="footer-links">
+					<li><a href="#">Our History</a></li>
+					<li><a href="#">Our Vision</a></li>
+					<li><a href="#">Listing Your Space</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Customer support</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<h4>News &amp; Events</h4>
+				<article class="news">
+					<h5>Lorem ipsum dolor sit amet,</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa</p>
+					<span class="date">12 Aug 2015</span>
+				</article>
+				<article class="news">
+					<h5>Lorem ipsum dolor sit amet,</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa</p>
+					<span class="date">12 Aug 2015</span>
+				</article>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<h4>Write your query</h4>
+				<form method="get" class="query-form" name="queryForm" novalidate="">
+			  <div class="row">
+			  	<div class="col-sm-6"><input type="text" name="name" value="" placeholder="Your Name" ng-pattern = "/^[a-zA-Z]+$/" ng-model = "user_query.name" required="" ng-class = "{error:queryForm.name.$invalid && submit}" /></div>
+			  	<div class="col-sm-6"><input type="email" name="email" value="" placeholder="Your Email" ng-pattern = "/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" ng-model = "user_query.email" required="" ng-class = "{error:queryForm.email.$invalid && submit}" /></div>
+			  </div>
+			  <div class="row">
+			  	<div class="col-sm-6"><input type="text" name="contactno" value="" placeholder="Your Contact Number" ng-pattern = "/^[0-9]+$/" ng-model = "user_query.contactno" required="" ng-class = "{error:queryForm.contactno.$invalid && submit}" /></div>
+			  	<div class="col-sm-6"><input type="text" name="location" value="" placeholder="Your Location" ng-pattern = "/^[0-9a-zA-Z]/"  ng-model = "user_query.location" required="" ng-class = "{error:queryForm.location.$invalid && submit}" /></div>
+			  </div>
+			  <div class="row">
+			  	<div class="col-sm-12">
+			  		<textarea name="description" placeholder="Description" ng-pattern = "/^[0-9a-zA-Z]/"  ng-model = "user_query.description" required="" ng-class = "{error:queryForm.description.$invalid && submit}" ></textarea>
+			  	</div>
+			  </div>
+			  <div class="row">
+			  	<div class="col-sm-12">
+			  		<button type="submit" class="btn btn-round" ng-click = "submitQuery(queryForm.$invalid)">Send Enquiry</button>
+			  	</div>
+			  </div>
+			</form>
+			</div>
+		</div>
+		
+	</div>
+	<div class="secondary-footer">
+			<div class="container">
+				<span class="copyright">Copyright reserverd at Shopz</span>
+				<ul class="secondary-footer-links">
+					<li><a href="#">Terms &amp; Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>

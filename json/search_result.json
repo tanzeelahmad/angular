@@ -1,0 +1,90 @@
+{
+   "search":{
+      "popular_place":[
+         {
+            "id":1,
+            "bgimg":"img/place1.jpg",
+            "iconclass":"mall-icon-small",
+            "head":"The Forum",
+            "spacefor":"Mall",
+            "spaceclass":"mall",
+            "spacename":"Koramangala",
+            "location":"Bangalore, Karnataka",
+            "space":"1200",
+            "spacein":"SQFT",
+            "price":"40000",
+            "pricein":"INR"
+         },
+         {
+            "id":2,
+            "bgimg":"img/place2.jpg",
+            "iconclass":"sharedspace-icon-small",
+            "head":"Mantri Square",
+            "spacefor":"Kiosk",
+            "spaceclass":"shared-space",
+            "spacename":"Malleswaram",
+            "location":"Bangalore, Karnataka",
+            "space":"1800",
+            "spacein":"SQFT",
+            "price":"72000",
+            "pricein":"INR"
+         },
+         {
+            "id":3,
+            "bgimg":"img/place3.jpg",
+            "iconclass":"office-icon-small",
+            "head":"Orion Mall",
+            "spacefor":"Office",
+            "spaceclass":"mall",
+            "spacename":"Malleswaram",
+            "location":"Bangalore, Karnataka",
+            "space":"1800",
+            "spacein":"SQFT",
+            "price":"72000",
+            "pricein":"INR"
+         },
+         {
+            "id":4,
+            "bgimg":"img/place5.jpg",
+            "iconclass":"highstreet-icon-small",
+            "head":"Central Mall",
+            "spacefor":"Highstreet",
+            "spaceclass":"highstreet",
+            "spacename":"Koramangala",
+            "location":"Bangalore, Karnataka",
+            "space":"1200",
+            "spacein":"SQFT",
+            "price":"52000",
+            "pricein":"INR"
+         },
+         {
+            "id":4,
+            "bgimg":"img/place5.jpg",
+            "iconclass":"highstreet-icon-small",
+            "head":"Central Mall",
+            "spacefor":"Highstreet",
+            "spaceclass":"highstreet",
+            "spacename":"Koramangala",
+            "location":"Bangalore, Karnataka",
+            "space":"1200",
+            "spacein":"SQFT",
+            "price":"52000",
+            "pricein":"INR"
+         },
+         {
+            "id":4,
+            "bgimg":"img/place5.jpg",
+            "iconclass":"highstreet-icon-small",
+            "head":"Central Mall",
+            "spacefor":"Highstreet",
+            "spaceclass":"highstreet",
+            "spacename":"Koramangala",
+            "location":"Bangalore, Karnataka",
+            "space":"1200",
+            "spacein":"SQFT",
+            "price":"52000",
+            "pricein":"INR"
+         }
+      ]
+   }
+}

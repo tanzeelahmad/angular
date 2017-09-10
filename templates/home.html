@@ -1,0 +1,230 @@
+<header class="header container">
+	<div class="row">
+		<div class="logo-container clearfix">
+			<a class="logo" href="#/"> <img src="img/logo.png" /> </a>
+		</div>
+		<div class="mob-menu-wrap">
+			<nav class="navigation">
+				<ul class="header-menu clearfix">
+					<li>
+						<a href="#/about">About</a>
+					</li>
+					<li>
+						<a href="">How its works</a>
+					</li>
+					<li>
+						<a href="">Find a space</a>
+					</li>
+					<li>
+						<a href="">contact us</a>
+					</li>
+					<li>
+						<a href="">sign up</a>
+					</li>
+					<li>
+						<a class="login-btn" href="">login</a>
+					</li>
+				</ul>
+				<a href="#" class="btn active">Auction</a>
+			</nav>
+
+		</div>
+		<i class="menu-btn">&nbsp;</i>
+	</div>
+</header>
+<div class="home-banner">
+
+	<div class="banner-content container">
+		<h1>find shared space <small>Discover the perfect short-term rental for any occasion </small></h1>
+		<div class="search-location clearfix">
+			<form ng-enter = "searchPlace(event)">
+				<!--<label>Select your place</label>-->
+				<!--<input type="text" name="location" placeholder="( eg. Koramangala, Bangalore )" value="" id="location"/>-->
+
+				<autocomplete ng-model="result" attr-placeholder="Select your place" click-activation="true" data="autosuggest" on-type="selectSearch" on-select="selectSearch">
+					
+				</autocomplete>
+
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="home-content">
+	<div class="about-block">
+		<div class="container">
+			<div class="text-content">
+				<h2 class="center lorem">Who we are?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+	
+			<div class="row service-option">
+				<div class="col-sm-4">
+					<a class="dream" href="#/">
+					<figure><img src="img/home-dream.png" alt="image" title="image" />
+						<figcaption>
+							have a dream?
+						</figcaption>
+					</figure> </a>
+				</div>
+				<div class="col-sm-4">
+					<a class="helps" ng-href="#/">
+					<figure><img src="img/home-helps.png" alt="image" title="image" />
+						<figcaption>
+							we helps
+						</figcaption>
+					</figure> </a>
+				</div>
+				<div class="col-sm-4 home-helps">
+					<a class="contact" ng-href="#/">
+					<figure><img src="img/help-contact.png" alt="image" title="image" />
+						<figcaption>
+							<strong>contact seller</strong>
+							make it real
+						</figcaption>
+					</figure>  </a>
+				</div>
+			</div>
+	
+			<p class="service-des">
+				Shopzz is launching the flash retail revolution in India. Flash Retail empowers anyone to lease or find short term retail space in India. Shopzz is also the country’s first online portal focusing on brick and mortar retail real estate space both for property owners and small and large retail brands.
+			</p>
+	
+			<h2 class="retail"> What is Flash Retail?</h2>
+			<p class="service-des">
+				For property owners: A flash retail space is a venue that is temporary. You can lease out space for a day, for the weekend or any other flexible pattern that fits in your schedule. Flash Retail is the easiest way for people to monetize their extra space or just meet interesting people.
+			</p>
+			<div class="row read-btn">
+				<a ng-href = "#/" class="btn-read-more">read more</a>
+			</div>
+		</div>
+	</div>
+	<section class="count-block">
+		<div class="container">
+			<div class="row">
+				<a href="#/" class="col-sm-2 col-sm-offset-1 col-md-3 col-md-offset-0 popup">
+				<figure>
+					<img title="image" alt="image" src="img/pop-img.png">
+				</figure> <span class="count">2688</span> <span class="capt">Popups</span> </a>
+		
+				<a href="#/" class="col-sm-2 col-sm-offset-1 col-md-3 col-md-offset-0 malls">
+				<figure>
+					<img title="image" alt="image" src="img/mall-img.png">
+				</figure> <span class="count">163</span> <span class="capt">Malls</span> </a>
+		
+				<a href="#/" class="col-sm-2 col-sm-offset-1 col-md-3 col-md-offset-0 stress">
+				<figure>
+					<img title="image" alt="image" src="img/stress-img.png">
+				</figure> <span class="count">886</span> <span class="capt">Highstreets</span> </a>
+		
+				<a href="#/" class="col-sm-2 col-sm-offset-1 col-md-3 col-md-offset-0 more">
+				<figure>
+					<img title="image" alt="image" src="img/more.png">
+				</figure> <span class="count">1288+</span> <span class="capt">More</span> </a>
+			</div>
+		</div>
+	</section>
+	<section class="section-work">
+		<!--
+		<h2>how its works?</h2>
+		<p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+		<div class="container">
+			<div class="text-content">
+				<h2 class="center lorem">How its works?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="row plans">
+				<div class="col-sm-4">
+	
+					<figure>
+						<img src="img/plan-img.png" alt="image" title="image"/>
+					</figure>
+					<span class="number">01</span>
+					<h3> Have and Idea/PLAN?</h3>
+					<p>
+						Mauris ultricies, lectus nec fringilla porta, nisi odio finibus nunc, et facilisis massa ante porttitor mauris. Praesent in tellus
+					</p>
+				</div>
+				<div class="col-sm-4">
+	
+					<figure>
+						<img src="img/space-img.png" alt="image" title="image"/>
+					</figure>
+					<span class="number">02</span>
+					<h3>Choose a Space</h3>
+					<p>
+						Mauris ultricies, lectus nec fringilla porta, nisi odio finibus nunc, et facilisis massa ante porttitor mauris. Praesent in tellus
+					</p>
+				</div>
+	
+				<div class="col-sm-4">
+	
+					<figure>
+						<img src="img/idea-img.png" alt="image" title="image"/>
+					</figure>
+					<span class="number">03</span>
+					<h3>Live the Idea</h3>
+					<p>
+						Mauris ultricies, lectus nec fringilla porta, nisi odio finibus nunc, et facilisis massa ante porttitor mauris. Praesent in tellus
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="two-btn-block">
+		<div class="container">
+			<div class="home-city">
+		
+				<a ng-href = "#/" class="btn">Buyer: Find a space</a>
+				<a ng-href = "#/" class="btn">Seller: List your space</a>
+			</div>
+		</div>
+	</div>
+	<section class="slider-section">
+	<div class="container">
+		
+			<h2 class="slider-head"><span>What they said</span><img src="img/slider-head-img.png" /></h2>
+			<div class="flexslider">
+				<ul class="slides slider-block">
+					
+				
+					<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+									<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+									<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+				
+				</ul>
+			</div>
+		
+	</div>
+	</section>
+	<section class="video-section">
+	
+		
+			<div class="container">
+				<div class="col-sm-12">
+					<a class="video" ng-href = "#/"> <img src="img/video.jpg" title="video image" alt="video image"/> </a>
+				</div>
+			</div>
+		
+	
+	</section>
+	
+	</div>

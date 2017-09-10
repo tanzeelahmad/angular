@@ -1,0 +1,172 @@
+
+<header class="header header2 container"> 
+	<div class="row">
+<div class="logo-container clearfix">
+	<a class="logo" href="#/"> 
+		<img src="img/logo.png" />
+		</a>
+		<div class="submenu">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">How It Works</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+</div>	
+	<div class="mob-menu-wrap">
+		<div class="place-block account">
+			<form ng-enter = "searchPlace(event)">
+				<!--<label>Select your place</label>-->
+				<!--<input type="text" name="place" placeholder="( eg. Koramangala, Bangalore )" />-->
+				<autocomplete ng-model="result" attr-placeholder="Select your place" click-activation="true" data="autosuggest" on-type="selectSearch" on-select="selectSearch">
+					
+				</autocomplete>
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+		  <nav class="navigation">
+		  	<ul class="header-menu clearfix">
+		  		<li><a href="#/about">Rent Space</a> <i class="fa fa-angle-down submenu-btn"></i>
+		  			<div class="submenu">
+				<ul>
+					<li><a href="#">Mall</a></li>
+					<li><a href="#">Highstreet</a></li>
+					<li><a href="#">Office</a></li>
+					<li><a href="#">Tecg park</a></li>
+				</ul>
+			</div>
+		  		</li>
+		  		<li><a href="">Flash Space</a> <i class="fa fa-angle-down submenu-btn"></i>
+		  			<div class="submenu">
+				<ul>
+					<li><a href="#">Kiosk</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Office</a></li>
+					<li><a href="#">Shop in Shop</a></li>
+					<li><a href="#">Shelf</a></li>
+					<li><a href="#">Others</a></li>
+				</ul>
+			</div>
+		  		</li>
+		  		<li><a href="">Sell Space</a> <i class="fa fa-angle-down submenu-btn"></i>
+		  			<div class="submenu">
+				<ul>
+					<li><a href="#">Mall</a></li>
+					<li><a href="#">Highstreet</a></li>
+					<li><a href="#">Office</a></li>
+					<li><a href="#">Tecg park</a></li>
+				</ul>
+			</div>
+		  		</li>
+		  		<li><a href=""><i class="fa fa-bookmark-o"></i>My Space</a></li>	
+		  	</ul>
+		  	<div class="user-access">
+		  		<a href="#" class="notification">
+		  			<i class="fa fa-bell-o"></i>
+		  			<span class="badge">6</span>
+		  		</a>
+		  		<div class="user-options">
+		  			<span class="uname">Himanshu<i class="fa fa-angle-down"></i></span>
+		  			<div class="submenu">
+				<ul>
+					<li><a href="#">My Profile</a></li>
+					<li><a href="#">My Favorite Listings</a></li>
+					<li><a href="#">Notification Settings</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+			</div>
+		  		</div>
+		  	</div>
+		  	<a href="#" class="btn active">Auction</a>
+		  </nav>
+	</div>
+	<i class="menu-btn">&nbsp;</i>
+	</div>
+</header>
+<div class="home-banner myaccount-banner">
+	<div class="container">
+		<div class="banner-content">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>SHARE YOUR SPACE
+						<small>get perfect short-term income for any occasion</small>
+						</h1>
+				</div>
+			
+			</div>
+			<div class="clearfix">
+				<div class="col-sm-4">
+					<div class="banner-block-content">
+						<h3 class="rent-ico">Rent</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et felis mi. Vestibulum molestie laoreet tellus, vel varius est condimentum at.</p>
+						<a href="" class="btn btn-round">I have Space to Rent</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="banner-block-content">
+						<h3 class="flash-space-icon">Flash Space</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et felis mi. Vestibulum molestie laoreet tellus, vel varius est condimentum at.</p>
+						<a href="" class="btn btn-round">I have Space to Share</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="banner-block-content">
+						<h3 class="sell-icon">SELL</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et felis mi. Vestibulum molestie laoreet tellus, vel varius est condimentum at.</p>
+						<a href="" class="btn btn-round">I have Space to Sell</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container home-content myaccount-content">
+	
+<section class="col-sm-12">
+	<div class="home-city">
+	 	
+	 	<a ng-href = "#/" class="btn">Buyer: Find a space</a>
+	 	<a ng-href = "#/" class="btn">Seller: List your space</a>
+	 </div>
+</section>
+ <section class="slider-section">
+ 	<h2 class="slider-head"><span>What they said</span>
+ 		<img src="img/slider-head-img.png" />
+ 		</h2>
+ 		<div class="flexslider">
+ 		<ul class="slides slider-block">
+ 			<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+									<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+									<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+									<li>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem.
+										</p>
+										<figure><img src="img/slider-img.png" alt="image"  title="image"/>
+										</figure>
+									</li>
+ 			
+ 		</ul>
+ 		</div>
+ </section>
+ 
+</div>

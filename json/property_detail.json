@@ -1,0 +1,42 @@
+{
+   "detail":[
+      {
+         "id":1,
+         "basicdetail":{
+            "img":"src",
+            "thumbsrc":[
+               "src"
+            ],
+            "head":"The Forum",
+            "spacein":"Mall, koramanga",
+            "location":"Banglore, Haryana",
+            "space":"3200 SQFT",
+            "floor":"2nd",
+            "status":"G+3",
+            "availablefor":"Rent,Lease,buy,Share Space"
+         },
+         "infrastructuredetail":{
+            "tspace":"3200 SQFT",
+            "buildingstatus":"Ready for fit outs",
+            "power":"15 KV",
+            "facad":"Glass",
+            "front":"3200 SQFT",
+            "buildingspace":"44 FT",
+            "powerbackup":"85 KV",
+            "floor":"TBD",
+            "backspace":"32 SQFT",
+            "parking":"2",
+            "list":2,
+            "propertyfor":"Rent"
+         },
+         "otherdetail":{
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris. Nullam id enim ut massa vestibulum viverra quis congue lorem. "
+         },
+         "ownerdetail":{
+            "name":"Saurav Kumar",
+            "address":"Banglore, Haryana",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod consequat mauris"
+         }
+      }
+   ]
+}

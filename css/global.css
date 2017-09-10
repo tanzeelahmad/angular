@@ -1,0 +1,202 @@
+/*Body*/
+body {
+	font-family: 'Dosis', sans-serif;
+	/*background: url("../img/bg.jpg") center top no-repeat;	*/
+}
+/*
+ 1) Sprite Icons
+ -------------------------*/
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+/*
+ 2.) Site Wide Content
+ ------------------------------*/
+#wrapper {
+}
+/*
+ 3.) Header Styles
+------------------------------*/
+
+
+.logo{
+  display: block;
+    float: left;
+    margin-top: 12px;
+    max-width: 140px;
+    padding-left: 15px;	 
+   
+}
+.navigation{
+	float: right;
+	padding: 26px 0 23px;
+}
+.header-menu {
+    float: left;
+    padding:0;
+    list-style-type:none;
+    margin-bottom: 0;
+}
+.header-menu li {
+    border-radius: 11px;
+    float: left;
+    margin: 0 21px;
+}
+.header-menu li a{
+	color: #25343b;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+/*
+.active{
+background-color: #66bb6a;
+    border-radius: 14px;
+    color: #ffffff;
+    float: left;
+    line-height: 25px;
+    margin-left: 22px;
+    min-width: 95px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 16px;
+}*/
+
+.login-btn{
+	position: relative;
+}
+.login-btn:after{
+	height:30px;
+	width:1px;
+	background:#eff2f3;
+	content:"";
+	position: absolute;
+	left:-60%;
+	top:0;
+	display: block;
+}
+.header .logo{
+	padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+/*
+ 5.) Footer Styles
+ ------------------------------*/
+.footer {
+}
+.footer h4{
+	font-size:24px;
+	color:#424242;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.footer-links{
+	list-style-type:none;padding-left: 0;
+}
+.footer-links li{
+	margin-bottom: 1px;
+}
+.footer-links a{
+	font-size:16px;
+	color:#000000;
+	font-family:inherit;
+}
+.footer h5{
+	font-weight:500;
+	font-size:16px;
+}
+.footer .news p{
+	font-size:16px;
+	margin-bottom: 0;
+}
+.footer .news .date{
+	font-size:12px;
+	font-weight:300;
+	color:#424242;
+	font-family:inherit;
+}
+.footer .news{
+	margin-bottom: 10px;
+}
+.footer .query-form input,.footer .query-form textarea{
+	width:100%;
+	line-height: 34px;
+	height:36px;
+	border:1px solid #b3b3b3;
+	border-radius:2px;
+	padding: 0 24px;
+}
+.footer .query-form .row{
+	margin-bottom: 12px;
+	padding-top: 7px;
+}
+.footer .query-form textarea{
+	height:71px;
+}
+.footer .btn{
+	min-width:160px !important;
+	font-size:16px !important;
+	margin-top: 5px;
+}
+.primary-footer{
+	border-bottom: 1px solid #f5f5f5;
+	padding-bottom: 70px;
+}
+.secondary-footer{
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.copyright{
+	font-size:12px;
+	color:#000;
+}
+.secondary-footer-links{
+	float: right;
+	list-style-type:none;
+}
+.secondary-footer-links li{
+	float: left;
+	font-size:12px;
+	margin-left: 20px;
+}
+.secondary-footer-links li a{
+	color:#000;
+	
+}

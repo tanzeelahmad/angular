@@ -1,0 +1,60 @@
+{
+   "space":[
+      {
+         "id":1,
+         "icon":"mall-icon-small",
+         "iconbg":"mall-bg",
+         "status":"Available",
+         "thumbsrc":"img/place-search.jpg",
+         "head":"The Forum",
+         "spacein":"Mall, Koramangala",
+         "location":"Bangalore, Karnataka",
+         "space":1200,
+         "measure":"SQFT",
+         "price":50000,
+         "floor":"2nd Floor"
+      },
+      {
+         "id":2,
+         "icon":"sharedspace-icon-small",
+         "iconbg":"sharedspace-bg",
+         "status":"Available",
+         "thumbsrc":"img/place-search.jpg",
+         "head":"The Forum",
+         "spacein":"Mall, Koramangala",
+         "location":"Bangalore, Karnataka",
+         "space":1000,
+         "measure":"SQFT",
+         "price":45000,
+         "floor":"2nd Floor"
+      },
+      {
+         "id":3,
+         "icon":"mall-icon-small",
+         "iconbg":"mall-bg",
+         "status":"Available",
+         "thumbsrc":"img/place-search.jpg",
+         "head":"The Forum",
+         "spacein":"Mall, Koramangala",
+         "location":"Bangalore, Karnataka",
+         "space":5500,
+         "measure":"SQFT",
+         "price":60000,
+         "floor":"2nd Floor"
+      },
+      {
+         "id":4,
+         "icon":"office-icon-small",
+         "iconbg":"office-bg",
+         "status":"Available",
+         "thumbsrc":"img/place-search.jpg",
+         "head":"The Forum",
+         "spacein":"Mall, Koramangala",
+         "location":"Bangalore, Karnataka",
+         "space":6000,
+         "measure":"SQFT",
+         "price":10000,
+         "floor":"2nd Floor"
+      }
+   ]
+}
